@@ -7,19 +7,20 @@
      font-family: 'lato', sans-serif;
      font-family: 'Open Sans', sans-serif;
      font-family: 'Work Sans', sans-serif;
-
-     .btn-primary {
-         color: #FFFFFF;
-         text-align: center;
-         font-size: 1rem;
-         font-weight: 800;
-         border-radius: 8px;
-         background: #FF5400;
-         border: none;
-         width: 174px;
-         height: 52px;
-     }
  }
+
+ .btn-primary {
+     color: #FFFFFF;
+     text-align: center;
+     font-size: 1rem;
+     font-weight: 800;
+     border-radius: 8px;
+     background: #FF5400;
+     border: none;
+     width: 174px;
+     height: 52px;
+ }
+
 
  /* header section style */
  nav {
@@ -60,36 +61,84 @@
  }
 
  .your-travel {
-     color: brown;
+     color: #FFFFFF;
      font-size: 4rem;
      font-weight: 800;
      position: absolute;
-     margin-left: 200px;
+     margin-top: 80px;
+     margin-left: 400px;
  }
 
  .travel-description {
-     color: brown;
+     color: #FFFFFF;
      font-size: 16px;
      font-weight: 400;
-     margin-left: 200px;
+     margin-left: 450px;
+     margin-top: 200px;
      position: absolute;
  }
+
+ .explore-button {
+     margin-top: 300px;
+     position: absolute;
+     margin-left: 400px;
+     font-size: 1rem;
+     font-weight: 400;
+     border-radius: 8px;
+     background: rgba(255, 255, 255, 0.30);
+     padding: 16px;
+     
+    }                                                                                           
+.one {      
+        width: 174px;
+         height: 52px;
+         border-radius: 8px;
+         background: #FFF;
+         text-align: center;
+         border: none;
+         margin-right: 24px;
+     }
+
+     .two {
+         width: 174px;
+         height: 52px;
+         border-radius: 8px;
+         background: #FFF;
+         text-align: center;
+         border: none;
+         margin-right: 24px;
+     }
+
+     .three {
+         width: 174px;
+         height: 52px;
+         border-radius: 8px;
+         background: #FFF;
+         text-align: center;
+         border: none;
+         margin-right: 24px;
+     }
+
+     .four {
+         width: 174px;
+         height: 52px;
+         border-radius: 8px;
+         background: #FFF;
+         border-radius: 8px;
+         background: #FF5400;
+         text-align: center;
+         color: #FFFFFF;
+         border: none;
+         margin-right: 24px;
+     }
 
  .image-thirteen {
      border-radius: 16px;
      background: #131318, #13131800;
      margin-top: 30px;
-     position: relative;
- }
-
- .explore-travel {
-     position: absolute;
-     padding: 50px;
  }
 
  /* popular tour section style */
- .popular-tours-paragraph {}
-
  .our-popular-tours {
      display: flex;
      margin-top: 80px;
@@ -99,7 +148,7 @@
 
  .popular-image {
      width: 100%;
-     height: 70%;
+     height: 80%;
  }
 
  /* chose your destination style */
@@ -108,6 +157,10 @@
      margin-left: 120px;
      margin-right: 120px;
      margin-top: 10px;
+ }
+
+ .image-two {
+     justify-content: space-between;
  }
 
  .choose-your-destination {
@@ -123,9 +176,173 @@
  }
 
  .choose-your-destination p {
-     color:#131318B2;
+     color: #131318B2;
      font-size: 1rem;
      font-weight: 400;
      padding: 10px;
+ }
 
+ /* why choose us style */
+ .hotel-image {
+     width: 64px;
+     height: 64px;
+ }
+
+ .service-image {
+     width: 64px;
+     height: 64px;
+ }
+
+ .guarantee-image {
+     width: 64px;
+     height: 64px;
+ }
+
+ .hotel-service {
+     display: flex;
+     justify-content: space-around;
+     gap: 10px;
+ }
+
+ /* why choose us */
+ .Why-Choose-Us {
+     margin-left: 135px;
+     margin-right: 135px;
+     margin-top: 80px;
+ }
+
+ .Choose-Us {
+     text-align: center;
+ }
+
+ .Choose-Us h1 {
+     color: #131318;
+     font-size: 2.5rem;
+     font-weight: 800;
+ }
+
+ .Choose-Us p {
+     color: rgba(19, 19, 24, 0.70);
+     font-size: 16px;
+     font-weight: 400;
+ }
+
+ .hotel {
+     border-radius: 16px;
+     border: 1px solid rgba(251, 181, 99, 0.20);
+     background: rgba(251, 181, 99, 0.05);
+     padding: 30px;
+ }
+
+ .service {
+     border-radius: 16px;
+     border: 1px solid rgba(41, 206, 246, 0.20);
+     background: rgba(41, 206, 246, 0.05);
+     padding: 30px;
+
+ }
+
+ .guarantee {
+     text-align: center;
+     border-radius: 16px;
+     border: 1px solid rgba(233, 68, 68, 0.20);
+     background: rgba(233, 68, 68, 0.05);
+     padding: 30px;
+     margin-left: 300px;
+     margin-right: 300px;
+     margin-top: 24px;
+
+ }
+
+ /* newsletter style */
+ .newsletter {
+     display: flex;
+     justify-content: space-around;
+     margin-top: 80px;
+     margin-left: 135px;
+     margin-right: 135px;
+ }
+
+ .newsletter-content {
+     width: 474px;
+     height: 422px;
+     border-radius: 16px;
+     border: 1px solid #FF5400;
+     text-align: center;
+ }
+
+ .newsletter-content h1 {
+     color: #131318;
+     font-size: 1.5rem;
+     font-weight: 800;
+ }
+
+ .newsletter-content img {
+     width: 672px;
+     height: 422px;
+     border-radius: 1rem;
+     background: lightgray;
+     border-right: 80px;
+ }
+
+ .newsletter-content p {
+     font-size: 1rem;
+     font-weight: 400;
+     color: #5A5A5D;
+ }
+
+ .enter,
+ .name,
+ .email {
+     width: 393px;
+     height: 52px;
+     border-radius: 8px;
+     color: #FFFFFF;
+     background: rgba(19, 19, 24, 0.05);
+     margin-left: 20px;
+     gap: 16px;
+     border: none;
+ }
+
+ .subscribe {
+     border-radius: 8px;
+     background: #FF5400;
+     color: white;
+     text-align: center;
+     width: 393px;
+     height: 52px;
+     margin-left: 20px;
+     border: none;
+ }
+
+ /* footer style */
+ .footer {
+     width: 1440px;
+     height: 502px;
+     background: rgba(19, 19, 24, 0.05);
+     color: #1313180D;
+     margin-top: 80px;
+     margin: 80px auto auto auto;
+ }
+
+ .hero-travel {
+     justify-content: center;
+     padding: 50px;
+ }
+
+ .footer p {
+     text-align: center;
+     color: #5A5A5D;
+     font-size: 16px;
+     font-weight: 400;
+     padding-top: 5px;
+ }
+
+ .socialmedia-icon {
+     margin-left: 600px;
+     padding: 50px;
+ }
+
+ .all-right {
+     margin-top: 100px;
  }
