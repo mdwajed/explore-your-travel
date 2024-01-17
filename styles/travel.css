@@ -21,8 +21,8 @@
      height: 52px;
  }
 
-
  /* header section style */
+
  nav {
      display: flex;
      justify-content: space-between;
@@ -73,9 +73,10 @@
      color: #FFFFFF;
      font-size: 16px;
      font-weight: 400;
-     margin-left: 450px;
+     margin-left: 320px;
      margin-top: 200px;
      position: absolute;
+     text-align: center;
  }
 
  .explore-button {
@@ -87,72 +88,87 @@
      border-radius: 8px;
      background: rgba(255, 255, 255, 0.30);
      padding: 16px;
-     
-    }                                                                                           
-.one {      
-        width: 174px;
-         height: 52px;
-         border-radius: 8px;
-         background: #FFF;
-         text-align: center;
-         border: none;
-         margin-right: 24px;
-     }
 
-     .two {
-         width: 174px;
-         height: 52px;
-         border-radius: 8px;
-         background: #FFF;
-         text-align: center;
-         border: none;
-         margin-right: 24px;
-     }
+ }
 
-     .three {
-         width: 174px;
-         height: 52px;
-         border-radius: 8px;
-         background: #FFF;
-         text-align: center;
-         border: none;
-         margin-right: 24px;
-     }
+ .one ,.two, .three,.four {
+     width: 174px;
+     height: 52px;
+     border-radius: 8px;
+     background: #FFF;
+     text-align: center;
+     border: none;
+     margin-right: 24px;
+     color: #13131880;
+ }
 
-     .four {
-         width: 174px;
-         height: 52px;
-         border-radius: 8px;
-         background: #FFF;
-         border-radius: 8px;
-         background: #FF5400;
-         text-align: center;
-         color: #FFFFFF;
-         border: none;
-         margin-right: 24px;
-     }
+ .four {
+    background: #FF5400;
+ }
 
  .image-thirteen {
      border-radius: 16px;
      background: #131318, #13131800;
-     margin-top: 30px;
+     margin-top: 20px;
+
  }
 
  /* popular tour section style */
  .our-popular-tours {
      display: flex;
      margin-top: 80px;
-     margin-right: 140px;
+     margin-right: 145px;
      margin-left: 145px;
+     justify-content: space-between;
  }
 
  .popular-image {
      width: 100%;
-     height: 80%;
+     height: 90%;
  }
-
+.popular-tours-paragraph p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5A5A5D;
+}
+.popular-tours-paragraph ui>li{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #131318B2;
+}
  /* chose your destination style */
+ .destination-image-one, .destination-image-two, .destination-image-three {
+    display: flex;
+ }
+ .maldives, .indonesia,.srilanka,.north-america,.kashmir,.bangladesh,.bandarban{
+    position: absolute;
+    margin-top: 130px;
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: #FFFFFF;}
+ .maldives{
+    margin-left: 280px;
+}
+ .indonesia{
+    margin-left: 880px;
+}
 
+.srilanka{
+    margin-left: 200px;
+}
+.north-america{
+    margin-left: 570px;
+}
+.kashmir{
+    margin-left: 1000px;
+}
+.bangladesh{
+    margin-left: 210px;
+}
+.bandarban{
+    margin-left: 800px;
+}
+ 
  .choose-your-destination-image {
      margin-left: 120px;
      margin-right: 120px;
@@ -183,17 +199,7 @@
  }
 
  /* why choose us style */
- .hotel-image {
-     width: 64px;
-     height: 64px;
- }
-
- .service-image {
-     width: 64px;
-     height: 64px;
- }
-
- .guarantee-image {
+ .hotel-image , .service-image, .guarantee-image {
      width: 64px;
      height: 64px;
  }
@@ -204,10 +210,9 @@
      gap: 10px;
  }
 
- /* why choose us */
  .Why-Choose-Us {
-     margin-left: 135px;
-     margin-right: 135px;
+     margin-left: 125px;
+     margin-right: 125px;
      margin-top: 80px;
  }
 
@@ -251,6 +256,7 @@
      margin-left: 300px;
      margin-right: 300px;
      margin-top: 24px;
+     
 
  }
 
@@ -283,6 +289,7 @@
      border-radius: 1rem;
      background: lightgray;
      border-right: 80px;
+     position: relative;
  }
 
  .newsletter-content p {
@@ -315,6 +322,31 @@
      border: none;
  }
 
+ .save {
+     width: 320px;
+     height: 130px;
+     transform: rotate(-19.628deg);
+     border-radius: 1rem;
+     background: #FF5400;
+     text-align: center;
+     position: absolute;
+     margin-left: 840px;
+     margin-top: 225px;
+     /* justify-content: center; */
+     padding-bottom: 20px;
+ }
+ .save p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-top: 10px;
+ }
+.save h1{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+    
  /* footer style */
  .footer {
      width: 1440px;
@@ -339,10 +371,47 @@
  }
 
  .socialmedia-icon {
-     margin-left: 600px;
-     padding: 50px;
+     margin-left: 650px;
+     /* padding: 30px; */
+     margin-top: 20px;
  }
 
  .all-right {
-     margin-top: 100px;
+     margin-bottom: 200px;
+     text-align: center;
+ }
+
+ @media screen and (max-width:600px) {
+
+     nav,
+     ul,
+     .our-popular-tours,
+     .hotel-service,
+     .newsletter {
+         flex-direction: column;
+     }
+
+     nav>ul {
+         margin-bottom: 20px;
+     }
+
+     .guarantee {
+         margin-left: 10px;
+         margin-right: 10px;
+     }
+
+     .newaletter {
+         margin-left: 0px;
+         margin-right: 20px;
+     }
+
+     .footer,
+     .socialmedia-icon,
+     .hero-travel,
+     .footer p,
+     all-right {
+         margin-left: 10px;
+         margin-right: 10px;
+     }
+
  }
