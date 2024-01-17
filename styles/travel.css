@@ -227,17 +227,18 @@
      text-align: center;
      border-radius: 16px;
  }
-     .sundarban-description h1 {
-         color: #131318;
-         font-size: 2.5rem;
-         font-weight: 800;
-         text-align: center;
-     }
+
+ .sundarban-description h1 {
+     color: #131318;
+     font-size: 2.5rem;
+     font-weight: 800;
+     text-align: center;
+ }
 
  .sundarban-description {
-         margin: 80px 160px 0 160px;
-     }
- 
+     margin: 80px 160px 0 160px;
+ }
+
 
  .sundarban-image-one,
  .sundarban-image-two,
@@ -425,7 +426,6 @@
 
  .socialmedia-icon {
      margin-left: 650px;
-     /* padding: 30px; */
      margin-top: 20px;
  }
 
@@ -440,31 +440,60 @@
      ul,
      .our-popular-tours,
      .hotel-service,
-     .newsletter {
+     .newsletter,
+     .hero-travel {
          flex-direction: column;
      }
 
-     nav>ul {
-         margin-bottom: 20px;
+
+
+     .footer p {
+         margin-left: 20px;
      }
+
 
      .guarantee {
-         margin-left: 10px;
-         margin-right: 10px;
-     }
-
-     .newaletter {
-         margin-left: 0px;
+         margin-left: 20px;
          margin-right: 20px;
      }
 
-     .footer,
-     .socialmedia-icon,
-     .hero-travel,
-     .footer p,
-     all-right {
-         margin-left: 10px;
-         margin-right: 10px;
+     .indonesia {
+         margin-left: 250px;
+         margin-top: 400px;
      }
 
+     .north-america {
+         margin-left: 150px;
+         margin-top: 400px;
+         align-items: center;
+     }
+
+     .kashmir {
+         margin-left: 150px;
+         margin-top: 700px;
+     }
+
+     .bandarban {
+         margin-left: 200px;
+         margin-top: 420px;
+     }
+
+     .maldives {
+         margin-left: 200px;
+         margin-top: 150px;
+     }
+
+     .bangladesh {
+         margin-left: 200px;
+         margin-top: 150px;
+     }
+
+     .your-travel,
+     .travel-description,
+     .explore-button,
+     .guarantee,
+     newsletter,
+     .socialmedia-icon {
+         margin-left: 20px;
+     }
  }
