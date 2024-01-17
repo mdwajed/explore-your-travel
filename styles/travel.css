@@ -91,7 +91,10 @@
 
  }
 
- .one ,.two, .three,.four {
+ .one,
+ .two,
+ .three,
+ .four {
      width: 174px;
      height: 52px;
      border-radius: 8px;
@@ -103,7 +106,7 @@
  }
 
  .four {
-    background: #FF5400;
+     background: #FF5400;
  }
 
  .image-thirteen {
@@ -126,49 +129,68 @@
      width: 100%;
      height: 90%;
  }
-.popular-tours-paragraph p {
-    font-size: 1rem;
-    font-weight: 400;
-    color: #5A5A5D;
-}
-.popular-tours-paragraph ui>li{
-    font-size: 1rem;
-    font-weight: 400;
-    color: #131318B2;
-}
- /* chose your destination style */
- .destination-image-one, .destination-image-two, .destination-image-three {
-    display: flex;
- }
- .maldives, .indonesia,.srilanka,.north-america,.kashmir,.bangladesh,.bandarban{
-    position: absolute;
-    margin-top: 130px;
-    font-size: 1.7rem;
-    font-weight: 800;
-    color: #FFFFFF;}
- .maldives{
-    margin-left: 280px;
-}
- .indonesia{
-    margin-left: 880px;
-}
 
-.srilanka{
-    margin-left: 200px;
-}
-.north-america{
-    margin-left: 570px;
-}
-.kashmir{
-    margin-left: 1000px;
-}
-.bangladesh{
-    margin-left: 210px;
-}
-.bandarban{
-    margin-left: 800px;
-}
- 
+ .popular-tours-paragraph p {
+     font-size: 1rem;
+     font-weight: 400;
+     color: #5A5A5D;
+ }
+
+ .popular-tours-paragraph ui>li {
+     font-size: 1rem;
+     font-weight: 400;
+     color: #131318B2;
+ }
+
+ /* chose your destination style */
+ .destination-image-one,
+ .destination-image-two,
+ .destination-image-three {
+     display: flex;
+ }
+
+ .maldives,
+ .indonesia,
+ .srilanka,
+ .north-america,
+ .kashmir,
+ .bangladesh,
+ .bandarban {
+     position: absolute;
+     margin-top: 130px;
+     font-size: 1.7rem;
+     font-weight: 800;
+     color: #FFFFFF;
+ }
+
+ .maldives {
+     margin-left: 280px;
+ }
+
+ .indonesia {
+     margin-left: 880px;
+ }
+
+ .srilanka {
+     margin-left: 200px;
+ }
+
+ .north-america {
+     margin-left: 570px;
+ }
+
+ .kashmir {
+     margin-left: 1000px;
+ }
+
+ .bangladesh {
+     margin-left: 210px;
+ }
+
+ .bandarban {
+     margin-left: 800px;
+ }
+
  .choose-your-destination-image {
      margin-left: 120px;
      margin-right: 120px;
@@ -198,8 +220,37 @@
      padding: 10px;
  }
 
+ /* sundarban style */
+ .sundarban {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     border-radius: 16px;
+ }
+     .sundarban-description h1 {
+         color: #131318;
+         font-size: 2.5rem;
+         font-weight: 800;
+         text-align: center;
+     }
+
+ .sundarban-description {
+         margin: 80px 160px 0 160px;
+     }
+ 
+
+ .sundarban-image-one,
+ .sundarban-image-two,
+ .sundarban-image-three {
+     width: 380px;
+     height: 230px;
+     border-radius: 16px;
+ }
+
  /* why choose us style */
- .hotel-image , .service-image, .guarantee-image {
+ .hotel-image,
+ .service-image,
+ .guarantee-image {
      width: 64px;
      height: 64px;
  }
@@ -256,7 +307,7 @@
      margin-left: 300px;
      margin-right: 300px;
      margin-top: 24px;
-     
+
 
  }
 
@@ -335,18 +386,20 @@
      /* justify-content: center; */
      padding-bottom: 20px;
  }
- .save p{
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: #FFFFFF;
-    padding-top: 10px;
+
+ .save p {
+     font-size: 1.5rem;
+     font-weight: 400;
+     color: #FFFFFF;
+     padding-top: 10px;
  }
-.save h1{
-    font-size: 2rem;
-    font-weight: 800;
-    color: #FFFFFF;
-}
-    
+
+ .save h1 {
+     font-size: 2rem;
+     font-weight: 800;
+     color: #FFFFFF;
+ }
+
  /* footer style */
  .footer {
      width: 1440px;
